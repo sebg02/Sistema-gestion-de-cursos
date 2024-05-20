@@ -1,0 +1,12 @@
+Basándonos en el ejercicio de la Biblioteca se implementa una solución 
+para un sistema de gestión de cursos para una plataforma educativa.
+
+Se crean tres formularios para la creación de cursos, inscripción de estudiantes 
+y asignación de instructores.
+
+Usando la POO se gestiona la creación y asignación de los cursos, estudiantes 
+e instructores.
+
+
+
+

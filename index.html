@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+    <title>Clase 4</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1>Sistema de gestión de cursos para una plataforma educativa</h1>
+
+      <article>
+        <h2>Agregar curso</h2>
+        <form id="add-course-form">
+          <input type="text" id="name-course" placeholder="Nombre del curso" required />
+          <input type="text" id="description" placeholder="Descripción" required />
+          <input type="text" id="duration" placeholder="Duración" required />
+          <button type="submit">Agregar</button>
+        </form>
+      </article>
+
+      <article>
+        <h2>Inscipción de estudiantes en cursos</h2>
+        <form id="enroll-student-in-course-form">
+          <input type="text" id="name-student" placeholder="Nombre Estudiante" required />
+          <input type="text" id="name-course-enrollment" placeholder="Nombre del curso" required />
+          <button type="submit">Inscribir</button>
+        </form>
+      </article>
+
+      <article>
+        <h2>Asignación de instructores a cursos</h2>
+        <form id="assign-instructor-in-course-form">
+          <input type="text" id="name-instructor" placeholder="Nombre Instructor" required />
+          <input type="text" id="name-course-assignment" placeholder="Nombre del curso" required />
+          <button type="submit">Asignar</button>
+        </form>
+      </article>
+
+      <article id="catalogue">
+        <h2>Catálogo de cursos</h2>
+        <ul id="course-catalogue"></ul>
+      </article>
+
+      <footer>
+        <small>
+          <p>Hecho por:</p>
+          <p><i>Sebastián Gil Rueda</i></p>
+          <p><i>Diego</i></p>
+          <p><i>Ramos</i></p>
+        </small>
+      </footer>
+
+      <script src="./main.js"></script>
+      <script src="./platform.js"></script>
+      <script src="./course.js"></script>
+      <script src="./students.js"></script>
+      <script src="./instructor.js"></script>
+    </main>
+  </body>
+</html>
